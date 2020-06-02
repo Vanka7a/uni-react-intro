@@ -1,0 +1,31 @@
+.nav-menu {
+  background-color: #26262b;
+  margin: 0;
+  display: inline-block;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.nav-menu-left {
+  float: left;
+}
+
+.nav-menu-right {
+  float: right;
+  padding-right: 100px;
+}
+
+ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.nav-option {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}

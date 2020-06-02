@@ -1,0 +1,40 @@
+.auth-form-wrapper {
+  border: 1px solid #a39f9f;
+  border-radius: 5px;
+  width: 300px;
+  margin: auto;
+  margin-top: 300px;
+}
+
+.auth-inputs-wrapper {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.auth-input {
+  border: none;
+  background-color: #ececec;
+  font-size: 16px;
+  width: 250px;
+  height: 40px;
+  margin-bottom: 10px;
+  padding-left: 10px
+}
+
+.auth-input::placeholder {
+  padding-left: 5px;
+}
+
+.auth-button {
+  border: none;
+  color: #fff;
+  background-color: #01c857;
+  font-size: 16px;
+  width: 262px;
+  height: 40px;
+}
+
+.auth-redirect {
+  font-size: 12px;
+}

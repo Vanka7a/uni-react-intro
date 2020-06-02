@@ -1,0 +1,23 @@
+.note-wrapper {
+  border: 1px solid #918f8f;
+  border-radius: 3px;
+  width: 250px;
+  margin: 20px;
+  display: inline-block;
+}
+
+.note-title {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.note-content {
+  padding: 10px;
+}
+
+.note-author {
+  text-align: end;
+  padding-right: 10px;
+}

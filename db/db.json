@@ -1,0 +1,113 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@admin.com",
+      "password": "admin",
+      "age": 31,
+      "isAdmin": true,
+      "picture": "https://picsum.photos/200/300?random=1"
+    },
+    {
+      "id": 2,
+      "name": "Test User2",
+      "email": "testuser2@test.com",
+      "password": 1234,
+      "age": 32,
+      "isAdmin": false,
+      "picture": "https://picsum.photos/200/300?random=2"
+    },
+    {
+      "id": 3,
+      "name": "Test User3",
+      "email": "testuser3@test.com",
+      "password": 1234,
+      "age": 33,
+      "isAdmin": false,
+      "picture": "https://picsum.photos/200/300?random=3"
+    },
+    {
+      "id": 4,
+      "name": "Test User4",
+      "email": "testuser4@test.com",
+      "password": 1234,
+      "age": 34,
+      "isAdmin": false,
+      "picture": "https://picsum.photos/200/300?random=4"
+    },
+    {
+      "id": 5,
+      "name": "Test User5",
+      "email": "testuser5@test.com",
+      "password": 1234,
+      "age": 35,
+      "isAdmin": false,
+      "picture": "https://picsum.photos/200/300?random=5"
+    },
+    {
+      "name": "test1",
+      "email": "test1@1",
+      "password": "test1",
+      "age": "13",
+      "isAdmin": false,
+      "picture": "https://picsum.photos/200/300?random=6",
+      "id": 6
+    },
+    {
+      "name": "ztest1",
+      "email": "ztest1@1",
+      "password": "ztest1",
+      "age": "15",
+      "isAdmin": false,
+      "picture": "https://picsum.photos/200/300?random=6",
+      "id": 7
+    },
+    {
+      "name": "zzzzz555",
+      "email": "zzz@z",
+      "password": "zzz",
+      "age": "12",
+      "isAdmin": false,
+      "picture": "https://picsum.photos/200/300?random=6",
+      "id": 8
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "title": "testTitle1",
+      "content": "test text 111 adsdask;ds;adas d asd sad dsdsdsdkms",
+      "authorId": 1,
+      "authorName": "Admin"
+    },
+    {
+      "id": 2,
+      "title": "testTitle2",
+      "content": "test text 222 adsdask;ds;adas d asd sad dsdsdsdkms",
+      "authorId": 2,
+      "authorName": "Test User2"
+    },
+    {
+      "id": 3,
+      "title": "testTitle3",
+      "content": "test text 333 adsdask;ds;adas d asd sad dsdsdsdkms",
+      "authorId": 3,
+      "authorName": "Test User3"
+    },
+    {
+      "id": 4,
+      "title": "testTitle4",
+      "content": "test text 444 adsdask;ds;adas d asd sad dsdsdsdkms",
+      "authorId": 4,
+      "authorName": "Test User4"
+    },
+    {
+      "id": 5,
+      "title": "testTitle5",
+      "content": "test text 555 adsdask;ds;adas d asd sad dsdsdsdkms",
+      "authorId": 5,
+      "authorName": "Test User5"
+    }
+  ]
+}
