@@ -14,7 +14,7 @@ export default function UsersList() {
 
   const onUserDelete = (id) => {
     deleteUser(id).then(() => {
-      setUsers(users.filter(u => u.id !== id))
+      setUsers(users.filter(user => user.id !== id))
     }).catch(err => console.error(err));
   }
 

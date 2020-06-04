@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Redirect } from 'react-router-dom';
 import { saveNote, getNoteById } from '../../../api/notesApi';
+import './NoteEdit.css';
 
 export default function NoteEdit(props) {
   const [editedNote, setEditedNote] = useState({'title': '', 'content': '', 'authorId': '', 'authorName': ''});
@@ -30,20 +31,21 @@ export default function NoteEdit(props) {
   return (
     <>
     { successRedirect && <Redirect to="/notes" />}
-    <div>
+    <div className="create-note-wrapper">
+      <span className="create-note-text">Create Note</span>
       <form onSubmit={onFormSubmit}>
         <div className="note-inputs-wrapper">
           <input
             type="text"
             name="title"
-            placeholder="title"
-            className="note-title"
+            placeholder="Title"
+            className="note-edit-title"
             value={editedNote.title}
             onChange={onInputChange} />
           <textarea
             name="content"
-            placeholder="content"
-            className="note-content"
+            placeholder="Content"
+            className="note-edit-content"
             value={editedNote.content}
             onChange={onInputChange} />
           <button className="save-button">Save</button>

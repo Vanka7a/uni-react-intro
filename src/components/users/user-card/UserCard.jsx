@@ -16,12 +16,13 @@ export default function UserCard({ user, onDelete }) {
         <div className="age">Age: {user.age}</div>
         <div className="email">Email: {user.email}</div>
       </div>
-      {loggedUser.isAdmin &&
+      {
+        loggedUser.isAdmin &&
         <div className="action-buttons-wrapper">
           <span><Link className="editBtn" to={`/users/edit/${user.id}`}>Edit</Link></span>
           <span className="deleteBtn" onClick={() => onDelete(user.id)}>Delete</span>
         </div>
-    }
+      }
     </div>
   );
 }

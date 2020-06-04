@@ -6,6 +6,7 @@ import UserEdit from '../users/user-edit/UserEdit';
 import NotesList from '../notes/NotesList';
 import NoteEdit from '../notes/note-edit/NoteEdit';
 import AuthenticatedRoute from '../guards/AuthenticatedRoute';
+import MyNotes from '../notes/MyNotes';
 
 const Main = () => {
   return (
@@ -17,7 +18,7 @@ const Main = () => {
 
       <AuthenticatedRoute exact path="/notes" component={NotesList} />
       <AuthenticatedRoute exact path="/notes/create" component={NoteEdit} />
-      <AuthenticatedRoute exact path="/notes/:id" component={NotesList} />
+      <AuthenticatedRoute exact path="/notes/my-notes" component={MyNotes} />
       <AuthenticatedRoute exact path="/notes/edit/:id" component={NoteEdit} />
     </Switch>
   );

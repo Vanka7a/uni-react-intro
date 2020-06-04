@@ -57,20 +57,11 @@
     {
       "name": "ztest1",
       "email": "ztest1@1",
-      "password": "ztest1",
+      "password": "1234",
       "age": "15",
-      "isAdmin": false,
+      "isAdmin": true,
       "picture": "https://picsum.photos/200/300?random=6",
       "id": 7
-    },
-    {
-      "name": "zzzzz555",
-      "email": "zzz@z",
-      "password": "zzz",
-      "age": "12",
-      "isAdmin": false,
-      "picture": "https://picsum.photos/200/300?random=6",
-      "id": 8
     }
   ],
   "notes": [

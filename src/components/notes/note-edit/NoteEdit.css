@@ -1,0 +1,57 @@
+.create-note-wrapper {
+  border: 1px solid #a39f9f;
+  border-radius: 5px;
+  width: 350px;
+  margin: auto;
+  margin-top: 300px;
+}
+
+.create-note-text {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.note-inputs-wrapper {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+}
+
+.note-edit-title {
+  font-size: 18px;
+  width: 290px;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.note-edit-title::placeholder {
+  padding-left: 10px;
+}
+
+.note-edit-content {
+  width: 292px;
+  display: block;
+  height: 75px;
+}
+
+.note-edit-content::placeholder {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.save-button {
+  border: none;
+  color: #fff;
+  background-color: #01c857;
+  font-size: 16px;
+  width: 298px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: -25px;
+}
